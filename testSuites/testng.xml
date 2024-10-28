@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<!-- parallel="tests" this will run tests parellely -->
+
+<suite parallel="tests" name="Suite">
+	
+	<listeners>
+			<listener class-name="companyp.TestComponents.Listeners"/>		
+	</listeners>
+	
+<!-- these below 2 tests starts in separate thread by creating unique Id's. hence, parallel run is possible through ThreadLocal() class in extent report-->	
+  <test thread-count="5" name="Submit Order Test">
+    <classes>
+      <class name="companyp.tests.SubmitOrderTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+   <test thread-count="5" name="Error Validations Test">
+    <classes>
+      <class name="companyp.tests.ErrorValidationsTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
