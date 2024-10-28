@@ -38,10 +38,23 @@ private void method6() {
 
 	System.out.println("new class text  class GitDemoClass: method6");
 }
+<<<<<<< HEAD
 private void method10() {
 	// TODO Auto-generated method stub
 
 	System.out.println("new class text  class GitDemoClass: method10");
 }
 
+=======
+private void method7() {
+	// TODO Auto-generated method stub
+
+	System.out.println("new class text  class GitDemoClass: method7");
+}
+private void method8() {
+	// TODO Auto-generated method stub
+
+	System.out.println("new class text  class GitDemoClass: method8");
+}
+>>>>>>> d7b409e3bb8794fb6de4bf386f769835d4910f70
 }
