@@ -48,6 +48,12 @@ public class ExtentReportDemo {
 		System.out.println("new class text: class-ExtentReport-method5");
 	}
 	
+	private void method6() {
+		// TODO Auto-generated method stub
+
+		System.out.println("new class text: class-ExtentReport-method6");
+	}
+	
 	
 	@Test
 	public void initialDemo() {		
