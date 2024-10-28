@@ -34,6 +34,12 @@ public class ExtentReportDemo {
 		System.out.println("GIT Purpose Data Added1");
 		System.out.println("GIT Purpose Data Added2");
 		
+		System.out.println("GIT Purpose Data Added3");
+		System.out.println("GIT Purpose Data Added4");
+		System.out.println("GIT Purpose Data Added5");
+		System.out.println("GIT Purpose Data Added6");
+	
+		
 	}
 	
 	
