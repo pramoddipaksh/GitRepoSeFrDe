@@ -31,6 +31,8 @@ public class ExtentReportDemo {
 		extent = new ExtentReports();
 		extent.attachReporter(reporter); // whatever  config done in ExtentSparkReporter is all passed using it's object to main class ExtentReports
 		extent.setSystemInfo("SDET", "Pramod S");
+		System.out.println("GIT Purpose Data Added1");
+		System.out.println("GIT Purpose Data Added2");
 		
 	}
 	
